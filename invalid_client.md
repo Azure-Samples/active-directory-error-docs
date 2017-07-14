@@ -1,5 +1,5 @@
 ### invalid_client
-This error gets called whenever there is a problem validating credentials of some sort.
+This error occurs when there is a problem validating an application’s credentials.
 
 **Possible causes**
 * The authorization code presented is invalid or was issued to a different tenant
@@ -8,3 +8,6 @@ This error gets called whenever there is a problem validating credentials of som
 * The client assertion was signed using a key not defined on the application
 * A refresh token is no longer valid
 * The username or password a user tried putting in is invalid
+
+**What to do**
+Check your application’s code and verify your clientID and client secret are correct.
