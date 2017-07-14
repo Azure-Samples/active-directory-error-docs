@@ -6,4 +6,6 @@ This error occurs when the target resource is invalid.
 * The resource you're trying to access isn't configured correctly
 
 **What to do**
+
+
 Check your application's code and verify the resource urls are valid.
