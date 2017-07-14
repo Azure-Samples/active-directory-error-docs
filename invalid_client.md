@@ -10,4 +10,6 @@ This error occurs when there is a problem validating an application’s credenti
 * The username or password a user tried putting in is invalid
 
 **What to do**
+
+
 Check your application’s code and verify your clientID and client secret are correct.
