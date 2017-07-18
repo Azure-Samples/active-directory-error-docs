@@ -7,4 +7,4 @@ This error occurs when the target resource is invalid.
 
 **What to do**
 
-Check your application's code and verify the resource urls are valid. 
+Check your application's code and verify the App ID URI/Resource URLs are configured correctly for the resource or scope you're requesting a token for. 
