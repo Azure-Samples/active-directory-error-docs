@@ -8,4 +8,4 @@ This error occurs when we can't find a user's account.
 
 **What to do** 
 
-Check your app's code and verify you're using the correct tenantID. 
+Check your app's code and verify you're using the correct tenantID. You can find your tenantID in [Azure](https://ms.portal.azure.com) under Azure Active Directory > Properties labeled Directory ID.
