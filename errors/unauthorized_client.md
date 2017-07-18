@@ -7,5 +7,5 @@ This error occurs when your application isn't allowed to request an authorizatio
 
 **What to do**
 
-Verify your application was registered correctly. 
+When this happens you can have the application prompt the user with instructions for installing the application and adding it to Azure Active Directory, (AD).
  
