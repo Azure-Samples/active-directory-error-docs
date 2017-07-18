@@ -5,7 +5,7 @@ This error occurs when the user denied consent to a resource you're trying to ac
 **Possible causes**
 
 * You tried accessing a resource the user hasn't given you consent to access yet.
-* You tried accessing a resource the user revoked consent.
+* You tried accessing a resource the user revoked consent to.
 
 **What to do**
 
