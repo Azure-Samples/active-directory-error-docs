@@ -11,4 +11,4 @@ This error occurs when there is a problem validating an application’s credenti
 
 **What to do**
 
-Check your application’s code and verify your clientID and client secret are correct. You can find these in the [App Registration Portal](https://www.apps.dev.microsoft.com), under your application's Application Id and Application Secrets. 
+Check your application’s code and verify your clientID and client secret are correct. You can find these in the [App Registration Portal](https://apps.dev.microsoft.com/), under your application's Application Id and Application Secrets. 
