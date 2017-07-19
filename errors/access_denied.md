@@ -6,10 +6,10 @@ This error occurs when the user denied consent to a resource you're trying to ac
 
 * You tried accessing a resource the user hasn't given you consent to access yet.
 * You tried accessing a resource the user revoked consent to.
-* User's account was not found or dissabled.
-* Conditional access failed.
+* The user's account was not found or dissabled.
+* A conditional access request failed.
 * Your application is misconfigured.
-* User's device authentication failed.
+* The user's device authentication failed.
 
 **What to do**
 
