@@ -6,7 +6,7 @@ This error occurs when there is a problem validating an application’s credenti
 * The client secret provided is invalid.
 * The clientID provided is invalid.
 * The client assertion was signed using a key not defined on the application.
-* The username or password a user tried putting in is invalid.
+* The username or password a user tried using is invalid.
 
 **What to do**
 
