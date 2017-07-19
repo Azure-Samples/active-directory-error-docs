@@ -2,4 +2,4 @@
 This error occurs when there is a problem with a request. 
 
 **Possible causes**
-* Missing a required parameter in a reques.  
+* Missing a required parameter in a request.  
