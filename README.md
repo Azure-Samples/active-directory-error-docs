@@ -7,13 +7,11 @@ All contributions to the Azure AD error docs are welcome. The following describe
 ### Where to put new error
 Each error is represented as a `*.md` file inside the [/errors](https://github.com/Azure-Samples/active-directory-error-docs/tree/master/errors) directory. 
 
-### Title
-Each file begins with a header of the error description as appears in the response from Azure AD.  For example,
+### Title & Description
+Each file begins with a header of the error description as appears in the response from Azure AD.  After the title, give a brief description of what this error means or a canonical scenario that can trigger it.  This can also be the generated error description from Azure AD.For example,
 
     ### access_denied
-
-### Brief Description
-After the title, give a brief description of what this error means or a canonical scenario that can trigger it.  This can also be the generated error description from Azure AD.
+        This error occurs when the user denied consent to a resource you're trying to access.   
 
 ### Possible Causes
 The next section should enumerate all possible cases the error can be occur.  For example, 
