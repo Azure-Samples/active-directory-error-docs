@@ -10,24 +10,24 @@ Each error is represented as a `*.md` file inside the [/errors](https://github.c
 ### Title
 Each file begins with a header of the error description as appears in the response from Azure AD.  For example,
 
-### access_denied
+    ### access_denied
 
 ### Brief Description
-After the title, give a brief description of what this error means or a canonical scenario that can trigger it.  This can also be the generated error description from Azure AD
+After the title, give a brief description of what this error means or a canonical scenario that can trigger it.  This can also be the generated error description from Azure AD.
 
 ### Possible Causes
 The next section should enumerate all possible cases the error can be occur.  For example, 
 
-**Possible Causes**
-* User did A
-* Developer did B
-* Tenant admin did C
+    **Possible Causes**
+        * User did A
+        * Developer did B
+        * Tenant admin did C
 
 ### What to do
 The final section is **What to do** which gives clear actionable advice on how to resolve the error. This can be keyed off the Possible Causes or a simple description. For example,
 
-**What to do**
-Perform admin consent on the application to resolve this error. You can do admin consent either through the portal doing xyz, or by constructing a request to the endpoint (give explicit instructions on how to construct this). 
+    **What to do**
+        Perform admin consent on the application to resolve this error. You can do admin consent either through the portal doing xyz, or by constructing a request to the endpoint (give explicit instructions on how to construct this). 
 
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
