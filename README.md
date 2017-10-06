@@ -13,6 +13,10 @@ Each file begins with a header of the error description as appears in the respon
     ### access_denied
         This error occurs when the user denied consent to a resource you're trying to access.   
 
+_Optional_: Include the AADSTS error code inside the title. For example,
+
+    ###: AADSTSnnnnnn: access_denied
+
 ### Possible Causes
 The next section should enumerate all possible cases the error can be occur.  For example, 
 
